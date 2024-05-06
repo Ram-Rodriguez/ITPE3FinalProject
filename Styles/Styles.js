@@ -8,7 +8,13 @@ const Styles = StyleSheet.create({
       justifyContent: 'center',
       alignItems: 'center',
       paddingHorizontal: 20,
-      backgroundColor: "#0a369d"
+      backgroundColor: "#0a369d",
+    },
+    home: {
+      flex: 1,
+      backgroundColor: "#0a369d",
+      justifyContent: 'flex-start',
+      alignItems: 'center'
     },
     input: {
       height: 40,
@@ -54,6 +60,33 @@ const Styles = StyleSheet.create({
     loginImage: {
       width: '100%',
       height: '100%'
+    },
+    linearGradient: {
+      paddingLeft: 15,
+      paddingRight: 15,
+      borderRadius: 10,
+      width: 250,
+      marginBottom: 10,
+    },
+    loginGradient: {
+      paddingLeft: 15,
+      paddingRight: 15,
+      borderRadius: 10,
+      width: 100,
+    },
+    btnText: {
+      fontSize: 18,
+      textAlign: 'center',
+      margin: 10,
+      color: '#ffffff',
+      backgroundColor: 'transparent',
+    },
+    body: {
+      flex: 4,
+      paddingTop: 120,
+    },
+    footer: {
+      flex: 1,
     },
   });
 
